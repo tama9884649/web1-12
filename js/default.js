@@ -5,7 +5,7 @@ for(var i = 1; i <= 100; i++)
   li.textContent='';
   
 
-   else if(i%3==0)
+   if(i%3==0)
   {
    li.textContent+='Fizz'; 
   }
